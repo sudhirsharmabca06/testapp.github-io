@@ -1,0 +1,480 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bharat Agrawal | Leadeship</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/layout.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+    <script type="text/javascript" src="js/cufon-yui.js"></script>
+    <script type="text/javascript" src="js/cufon-replace.js"></script>
+    <script type="text/javascript" src="js/Myriad_Pro_400.font.js"></script>
+    <script type="text/javascript" src="js/Myriad_Pro_700.font.js"></script>
+    <script type="text/javascript" src="js/Myriad_Pro_600.font.js"></script>
+    <link href="css/orman.css" rel="stylesheet" type="text/css" />
+    <link href="css/nivo-slider.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.js" type="text/javascript"></script>
+    <script src="js/organict.js" type="text/javascript"></script>
+    <script src="js/ddlevels.js" type="text/javascript"></script>
+    <!--[if lt IE 9]>
+<script type="text/javascript" src="js/ie6_script_other.js"></script>
+<script type="text/javascript" src="js/html5.js"></script>sss
+<![endif]-->
+    <script type="text/javascript">
+        $(function () {
+
+            $("#example-one").organicTabs();
+
+            $("#example-two").organicTabs({
+                "speed": 300
+            });
+
+        });
+    </script>
+    <script type="text/javascript">
+        function slideSwitch() {
+            var $active = $('#slideshow DIV.active');
+            if ($active.length == 0) $active = $('#slideshow DIV:last');
+            var $next = $active.next().length ? $active.next()
+        : $('#slideshow DIV:first');
+            $active.addClass('last-active');
+            $next.css({ opacity: 0.0 })
+        .addClass('active')
+        .animate({ opacity: 1.0 }, 1000, function () {
+            $active.removeClass('active last-active');
+        });
+        }
+
+        $(function () {
+            setInterval("slideSwitch()", 5000);
+        });
+
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $("#example-two").organicTabs({
+                "speed": 200
+            });
+        });
+    </script>
+</head>
+<body id="page2">
+    <!-- START PAGE SOURCE -->
+    <div class="main">
+        <header>
+    <div class="wrapper">
+    <div style="float:left;">
+        <img src="images/my photo.jpg" title="My Photo" width="65" height="65" alt="My Photo" /></div>
+      <h1><a href="index.html" id="logo">Bharat Agrawal</a></h1>
+   
+     <!-- <form id="search" action="#" method="post">
+        <div class="bg">
+          <input type="submit" class="submit" value=""/>
+          <input type="text" class="input"/>
+        
+              
+                       
+        </div>
+      </form>-->
+      <div style="float:right; padding:30px 0 0 0">
+        <span style="font-size:20px; color:steelblue; font-weight:bold; padding:30px 30px 0 0">Contact:- +91(941)402-3552</span>
+       <img src="images/facebook.png" title="Facebook" alt="Facebook" />
+                        <img src="images/linkedin.png" title="Linkedin" alt="linkedin" /> 
+                        <img src="images/twitter.png" title="Twitter" alt="twitter" /> </div>
+    </div>
+  
+     <!--Begin Menu Portion-->
+   <div class="mgmenu">
+    <div class="mgmenudiv1">
+      <div class="mgmenuH" id="ddtopmenubar1">
+        <ul>
+          <li><a href="index.html" rel="ddsubmenu1">Home&nbsp;<img src="" class="downarrowpointer" style="width: 0px; height: 0px;"/></a></li>
+          <li class="currentlink"><a href="aboutus.htm" rel="ddsubmenu2">About Us&nbsp;<img src="" class="downarrowpointer" style="width: 0px; height: 0px;"/></a></li>
+          <li><a href="leadership.htm" rel="ddsubmenu3">&nbsp;Training Courses<img src="" class="downarrowpointer" style="width: 0px; height: 0px;"/></a></li>
+          <li><a href="vastu.htm" rel="ddsubmenu4">&nbsp;Solutions For<img src="" class="downarrowpointer" style="width: 0px; height: 0px;"/></a></li>
+          <li><a href="#" rel="ddsubmenu5">&nbsp;Clients<img src="" class="downarrowpointer" style="width: 0px; height: 0px;"/></a></li>
+          <li><a href="#" rel="ddsubmenu6">&nbsp;Testimonials&nbsp;<img src="" class="downarrowpointer" style="width: 0px; height: 0px;"/></a></li>
+          <li><a href="#" rel="ddsubmenu7">&nbsp;Gallery<img src="" class="downarrowpointer" style="width: 0px; height: 0px;"/></a></li>
+          <li class="last"><a href="contactus.aspx" rel="ddsubmenu9">&nbsp;Contact Us&nbsp;<img src="" class="downarrowpointer" style="width: 0px; height: 0px;"/></a></li>
+        </ul>
+      </div>
+      <script type="text/javascript">
+          ddlevelsmenu.setup("ddtopmenubar1", "topbar") 
+</script>
+  
+    </div>
+  </div>
+  <!--End Menu Portion-->
+    <div class="wrapper">
+    <!--  <div class="text"> <span class="text1">Effective<span>business solutions</span></span>  </div>-->
+       <div id="templatemo_slider">
+            <div class="slider-wrapper theme-orman">
+                <div class="ribbon">
+                </div>
+                <div id="slider" class="nivoSlider">
+                    <img src="images/slider/01.jpg" alt="Astology in Bharatpur | Rajasthan | India"
+                        title="Global Business Etiquette, Cultural Awareness" />
+                    <img src="images/slider/02.jpg" alt="Astology in Bharatpur | Rajasthan | India"
+                        title="Global Business Etiquette, Cultural Awareness" />
+                    <img src="images/slider/03.jpg" alt="Astology in Bharatpur | Rajasthan | India"
+                        title="Global Business Etiquette, Cultural Awareness" />
+                    <img src="images/slider/04.Jpg" alt="Astology in Bharatpur | Rajasthan | India"
+                        title="Global Business Etiquette, Cultural Awareness" />
+                    <img src="images/slider/05.jpg" alt="Astology in Bharatpur | Rajasthan | India"
+                        title="Global Business Etiquette, Cultural Awareness" />
+                    <img src="images/slider/06.jpg" alt="Astology in Bharatpur | Rajasthan | India"
+                        title="Global Business Etiquette, Cultural Awareness" />
+                    <img src="images/slider/07.jpg" alt="Astology in Bharatpur | Rajasthan | India"
+                        title="Global Business Etiquette, Cultural Awareness" />
+                          <img src="images/slider/08.jpg" alt="Astology in Bharatpur | Rajasthan | India"
+                        title="Global Business Etiquette, Cultural Awareness" />
+                          <img src="images/slider/09.jpg" alt="Astology in Bharatpur | Rajasthan | India"
+                        title="Global Business Etiquette, Cultural Awareness" />
+                          <img src="images/slider/10.jpg" alt="Astology in Bharatpur | Rajasthan | India"
+                        title="Global Business Etiquette, Cultural Awareness" />
+                </div>
+                <div class="nivo-controlNav-bg">
+                </div>
+            </div>
+            <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+            <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+            <script type="text/javascript">
+                $(window).load(function () {
+                    $('#slider').nivoSlider({
+                        controlNav: true
+                    });
+                });
+            </script>
+        </div>
+    </div>
+  </header>
+        <br />
+        <section id="content">
+    <div class="wrapper">
+     <div class="wrapper">
+        <ul class="banners">
+          <li> <a href="#"><img src="images/vastu01.jpg" alt=""/></a>
+            <div class="pad">
+              <p class="font1">Vastu</p>
+              <p>Lorem ipsum doloamet consect etuer adipiscing.</p>
+              <a href="#" class="marker"></a> </div>
+          </li>
+          <li> <a href="#"><img src="images/care01.jpg" alt=""/></a>
+            <div class="pad">
+              <p class="font1">Psychometric</p>
+              <p>Sed ut perspiciatis unde omnis iste naturror voluptatem.</p>
+              <a href="#" class="marker"></a> </div>
+          </li>
+          <li> <a href="#"><img src="images/page1_img3.jpg" alt=""/></a>
+            <div class="pad">
+              <p class="font1">Where We Deliver</p>
+              <p>Nam libero tempore cum soluta nobis est eligendi optio.</p>
+              <a href="#" class="marker"></a> </div>
+          </li>
+          <li> <a href="#"><img src="images/page1_img4.jpg" alt=""/></a>
+            <div class="pad">
+              <p class="font1">Operations Consulting</p>
+              <p>Temporibus autem quibusdam et aut officiis.</p>
+              <a href="#" class="marker"></a> </div>
+          </li>
+        </ul>
+      </div>
+      <div class="pad">
+        <div class="wrapper">
+          <article class="col1">
+            <h2>Leadership</h2>
+          </article>
+
+           <div class="wrapper">
+            <table width="100%">
+            <tr>
+            <td style="width:250px">
+            <img src="images/leadership/Becoming-a-Leader.png" style="border:1px solid lightgray; border-radius:5px;" />
+            
+            </td>
+            <td>
+            <p class="headingfont1"><strong> Becoming a Leader </strong></p>
+<p>You need people to grow - and more people to 
+lead and manage them. Executives in fast-growing companies don't have 
+the time - or take the time - to get newly hired (or promoted) managers 
+up-to-speed on all of the key issues that will impact them.</p><p>Becoming a Leader (for Emerging Leaders) Training program can 
+be offered to Corporate Clients, SMEs, Private and Public establishments
+ across India. All our programs are customized to suit the participants'
+ training needs. </p>            </td>
+            
+            </tr>
+            
+           
+             <tr>
+            <td style="width:250px">
+            <img src="images/leadership/Building-and-Leading-Great-Teams.png" style="border:1px solid lightgray; border-radius:5px;" />
+            
+            </td>
+            <td>
+            <p class="headingfont1"><strong> Building and Leading Great Teams </strong></p>
+<p>When a sports team is working well together, 
+it can feel like magic. We've all experienced it, either as a team 
+member or as a fan. Fortunately, you do not have to be Michael Jordan or
+ Mia Hamm to have the skills you need to build and lead high performing 
+teams in your organization.</p>
+						<p>Nonetheless, teams are serious business in today's economy as 
+companies realize the value of teaming in creating greater employee 
+involvement, leveraging human resources, fostering innovation, and 
+shoring up the bottom line.</p>    </td>
+            
+            </tr>
+              <tr>
+            <td style="width:250px">
+            <img src="images/leadership/Communication-Skills-for-Managers-and-Leaders.png" style="border:1px solid lightgray; border-radius:5px;" />
+            
+            </td>
+            <td>
+            <p class="headingfont1"><strong> Communication Skills for Managers and Leaders </strong></p>
+<p>Communication skills for managers and leaders are vital and 
+most managers and leaders recognize that communication skills are 
+essential in business. Managers and leaders need to be able to 
+communicate, build relationships and work with individuals at all levels
+ and their behavior and interpersonal skills can affect others both 
+positively and negatively; consequently, this is a major element of good
+ management.</p><br /><br />
+						</td>
+            
+            </tr>
+            
+             <tr>
+            <td style="width:250px">
+            <img src="images/leadership/Conducting-Effective-Meetings.png" style="border:1px solid lightgray; border-radius:5px;" />
+            
+            </td>
+            <td>
+            <p class="headingfont1"><strong> Conducting Effective Meetings </strong></p>
+<p>Meetings are essential in any form of human enterprise. These 
+days, they are so common that turning the resources they tie up into 
+sustained results is a priority in high-performance organizations. This 
+is because they are potential time wasters: the other persons present 
+may not respect their own time as much as you have come to respect 
+yours, and it is therefore unlikely that they will mind wasting your 
+time. Generic actions before, during, and after can make meetings more 
+effective.</p>
+<br />
+						</td>
+            
+            </tr>
+               <tr>
+            <td style="width:250px">
+            <img src="images/leadership/Conflict-Management.png" style="border:1px solid lightgray; border-radius:5px;" />
+            
+            </td>
+            <td>
+             <p class="headingfont1"><strong> Conflict Management </strong></p>
+<p>Everyone encounters situations where s/he has to deal with some kind of conflict. Most people favor one conflict-handling style,
+ but there is no "one-size-fits-all" response to conflict. In any organizational role, be it managerial or leadership, the ability
+  to handle conflict effectively tends to influence one's effectiveness. However, if we can master all possible conflict resolution 
+  styles and choose the most appropriate response style depending on uniqueness of each situation, we would be more effective.</p><br />
+						</td>
+            
+            </tr>
+               <tr>
+            <td style="width:250px">
+            <img src="images/leadership/Decision-Making-Skills-for-Leaders.png" style="border:1px solid lightgray; border-radius:5px;" />
+            
+            </td>
+            <td>
+            
+				 <p class="headingfont1"><strong> Decision Making Skills for Leaders </strong></p>
+<p>Decision-making is a key skill in the workplace, and is particularly important if a leader wants to be effective.</p><p>
+
+Whether deciding which person to hire, which supplier to use, or which strategy to pursue, the ability to make a good decision with available information is vital.
+ It would be easy if there was one formula that could be used in any situation, but there isn't. Each decision presents its own challenges, and we all have
+  different ways of approaching problems.</p>
+						</td>
+            		</td>
+            
+            </tr>
+               <tr>
+            <td style="width:250px">
+            <img src="images/leadership/Developing-a-Culture-of-High-Performance.png" style="border:1px solid lightgray; border-radius:5px;" />
+            
+            </td>
+            <td>
+             <p class="headingfont1"><strong> Developing a Culture of High Performance </strong></p>
+<p>Performance cultures develop from an organization's people approaching their work in a purposeful and results-oriented manner. 
+Those responsible for ensuring that the organization is effectively designed will make sure that the business goals and performance
+ measures are reflected in accountabilities at executive and managerial levels.</p><p>
+
+The values and core behaviors that fashion how people will approach their work and apply their knowledge,
+ skills and behaviors will be part of the overall management process and underpin people development.</p>
+						</td>
+            
+            </tr>
+               <tr>
+            <td style="width:250px">
+            <img src="images/leadership/Interpersonal-Effectiveness-and-Team-Building-for-Managers.png" style="border:1px solid lightgray; border-radius:5px;" />
+            
+            </td>
+            <td>
+             <p class="headingfont1"><strong>Interpersonal Effectiveness and
+Team Building for Managers</strong></p>
+<p>Organizations are essentially groups of individuals constructed to strive for specific goals. The success and growth of organizations
+ depend significantly on the individual's ability to work well at the interpersonal level as well as in and with groups. Even the individual's 
+ success and growth in organizations depend significantly on his/her ability to work well with others.</p><p>
+
+This training program can be delivered as an in-house classroom training or a fun-filled Out-bound Training with games and activities.</p>
+						</td>
+            
+            </tr>
+              <tr>
+            <td style="width:250px">
+            <img src="images/leadership/Leadership-Training-Junior-Level-.png" style="border:1px solid lightgray; border-radius:5px;" />
+            
+            </td>
+            <td>
+             <p class="headingfont1"><strong>Leadership Training Junior-Level</strong></p>
+<p>This workshop will expose employees to a variety of leadership models and present to attendees practical applications of leadership.
+ Participants will discover how they can act as leaders in all areas of their lives (their departments, at work, in their communities and in the world) 
+ without necessarily being in traditional leadership positions of power and authority.</p><p>
+
+The "Leadership Training - Junior Level" program, can be offered to Corporate Clients, SMEs, Private and Public establishments across India.</p>
+            
+						</td>
+            
+            </tr>
+
+              <tr>
+            <td style="width:250px">
+            <img src="images/leadership/Leadership-Training-Middle-Level.png" style="border:1px solid lightgray; border-radius:5px;" />
+            
+            </td>
+            <td>
+             <p class="headingfont1"><strong>Leadership Training - Middle Level</strong></p>
+<p>Today, high-impact organizations are recognizing the invaluable contributions of the middle layer and the risk they face in a shallow pool of 
+ill-prepared middle managers and are committing to their development. Similarly, mid-level leaders themselves are taking matters into their
+ own hands and charting their own course for leadership development.</p><p>
+
+The "Leadership Training - Middle Level" program can be offered to Corporate Clients, SMEs, Private and Public establishments across India. </p>
+						</td>
+            
+            </tr>
+
+              <tr>
+            <td style="width:250px">
+            <img src="images/leadership/Leading-Teams-Successfully.png" style="border:1px solid lightgray; border-radius:5px;" />
+            
+            </td>
+            <td>
+             <p class="headingfont1"><strong>Leadership and Spirituality</strong></p>
+<p>Having an effective team around you is crucial. However, it is an area that is often left to chance, which can lead to de-motivated individuals
+ who do not feel like they are part of the business and consequently do not perform. This course looks at what it takes to lead an effective team
+  and how you can get the best out of the people in it by understanding the role of a leader, both personally and from the point of view of the team.</p><p>
+
+The "Leading Teams Successfully" Training program can be offered to Corporate Clients, SMEs, Private and Public establishments across India. </p>
+						</td>
+            
+            </tr>
+             <tr>
+            <td style="width:250px">
+            <img src="images/leadership/Management-Effectiveness-through-Self-Awareness.png" style="border:1px solid lightgray; border-radius:5px;" />
+            
+            </td>
+            <td>
+            <p class="headingfont1"><strong>Management Effectiveness through
+Self-Awareness</strong></p>
+<p>Even when personal feedback is presented to us, we're not always open to it, because honest feedback isn't always flattering. Consequently,
+ many of us have a pretty low level of self-awareness. That's unfortunate, because self-awareness is an essential first step toward maximizing management skills.
+
+</p><p>
+
+Self-awareness can improve our judgment and help us identify opportunities for professional development and personal growth. </p>
+						</td>
+            
+            </tr>
+                <tr>
+            <td style="width:250px">
+            <img src="images/leadership/One-day-fun-filled-Team-Building-Workshop-focusing-on-Leadership-Competencies.png" style="border:1px solid lightgray; border-radius:5px;" />
+            
+            </td>
+            <td>
+            <p class="headingfont1"><strong>One day fun filled Team Building Workshop</strong></p>
+<p>This workshop is full of challenging activities that enhance the character of individuals or teams and improve their behaviour, teamwork, leadership and cooperation.
+
+
+</p><p>
+
+Participants learn crucial team process skills by functioning as a team through a diverse series of active and creative challenges, trying out new ways of working together and observing the results.
+ </p>
+ <p>It is one of the best ways to solve the internal company/team related problems and improve communication, leadership, cooperation, productivity, working environment and more.</p>
+						</td>
+            
+            </tr>
+            
+            
+            </table>
+
+            </div>
+         
+        </div>
+      </div>
+     <br />
+    </div>
+  </section>
+        <footer>
+    <p class="lf">Copyright &copy; 2013 <a href="#">bharat-agrawal.com</a>  </p>
+    <p class="rf">All Rights Reserved</p>
+    <div style="clear:both;"></div>
+  </footer>
+    </div>
+    <script type="text/javascript">        Cufon.now(); </script>
+    <!-- END PAGE SOURCE -->
+    <div align="center">
+        Website Design And Powered By <a href='http://sol4ever.com/'>sol4ever</a></div>
+    <!-- Designed by Team sol4ever -->
+    <iframe class="ddiframeshim" src="about:blank" frameborder="0"></iframe>
+    <iframe class="ddiframeshim" src="about:blank" frameborder="0"></iframe>
+    <ul id="ddsubmenu1" class="ddsubmenustyle" style="z-index: 2000; left: 0px; top: 0px;
+        visibility: hidden;">
+    </ul>
+    <ul id="ddsubmenu2" class="ddsubmenustyle" style="z-index: 2000; left: 0px; top: 0px;
+        visibility: hidden;">
+        <!--  <li><a href="http://bharat-agrawal.com/MyProfile.htm">My Profile</a></li>
+        <li><a href="http://bharat-agrawal.com/biography.html">Biography</a></li>
+        <li><a href="http://bharat-agrawal.com/awards.html">Awards</a></li>
+     -->
+    </ul>
+    <ul id="ddsubmenu3" class="ddsubmenustyle" style="z-index: 2000; left: 0px; top: 0px;
+        visibility: hidden;">
+        <li><a href="#">Leadership</a></li>
+        <li><a href="#">Communication</a></li>
+        <li><a href="#">Sales Training</a></li>
+        <li><a href="#">Soft Skills</a></li>
+    </ul>
+    <ul id="ddsubmenu4" class="ddsubmenustyle" style="z-index: 2000; left: 0px; top: 0px;
+        visibility: hidden;">
+        <li><a href="astrology.htm">Astrology</a></li>
+        <li><a href="vastu.htm">Vastu</a></li>
+        <li><a href="#">Psychometric</a></li>
+        <li><a href="hypnotheraphy.htm">Hypnotheraphy</a></li>
+        <!--<li><a href="#">Schools &amp; Colleges</a></li>-->
+    </ul>
+    <ul id="ddsubmenu5" class="ddsubmenustyle" style="z-index: 2000; left: 0px; top: 0px;
+        visibility: hidden;">
+    </ul>
+    <ul id="ddsubmenu6" class="ddsubmenustyle" style="z-index: 2000; left: 0px; top: 0px;
+        visibility: hidden;">
+    </ul>
+    <ul id="ddsubmenu7" class="ddsubmenustyle" style="z-index: 2000; left: 0px; top: 0px;
+        visibility: hidden;">
+        <!--  <li><a href="#">News &amp; Events</a></li>
+		 <li><a href="#">Photo Gallery</a></li>
+		 
+		 <li><a href="#">Press Releases</a></li>
+		  <li><a href="#">Articles</a></li>-->
+    </ul>
+    <ul id="ddsubmenu9" class="ddsubmenustyle" style="z-index: 2000; left: 0px; top: 0px;
+        visibility: hidden;">
+        <li><a href="#">Feedback / Enquiry</a></li>
+        <li><a href="#">Invite as a Keynote Speaker</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</body>
+</html>
